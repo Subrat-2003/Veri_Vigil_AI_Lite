@@ -10,7 +10,7 @@ The result? A **0–100 trust score**, a **Safe / Suspicious verdict**, and a pl
 
 ## ⚡ Why This Exists
 
-Every day, millions of people watch misleading videos, share harmful content, and make decisions based on manipulated information — without a single warning signal. Veri-Vigil puts that signal right where it matters: **on the page, in real time, before the damage is done.**
+Every day, millions of people watch misleading videos, share harmful content, and make decisions based on manipulated information without a single warning signal. Veri-Vigil puts that signal right where it matters: **on the page, in real time, before the damage is done.**
 
 ---
 
