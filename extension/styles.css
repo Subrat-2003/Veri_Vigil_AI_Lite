@@ -1,0 +1,96 @@
+#veri-vigil-overlay.vv-root {
+  position: fixed;
+  top: 88px;
+  right: 20px;
+  z-index: 999999;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#veri-vigil-overlay .vv-badge {
+  width: 320px;
+  border-radius: 16px;
+  padding: 14px;
+  color: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#veri-vigil-overlay.vv-loading .vv-badge {
+  background: linear-gradient(135deg, #3a3f50, #1f2430);
+}
+
+#veri-vigil-overlay.vv-safe .vv-badge {
+  background: linear-gradient(135deg, #0d8f58, #0b6f45);
+}
+
+#veri-vigil-overlay.vv-suspicious .vv-badge {
+  background: linear-gradient(135deg, #b42318, #8f1f16);
+}
+
+#veri-vigil-overlay .vv-top-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+}
+
+#veri-vigil-overlay .vv-logo {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#veri-vigil-overlay .vv-status-pill {
+  background: rgba(255, 255, 255, 0.16);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+#veri-vigil-overlay .vv-score-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 14px;
+}
+
+#veri-vigil-overlay .vv-score-label {
+  font-size: 13px;
+  opacity: 0.95;
+}
+
+#veri-vigil-overlay .vv-score-value {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+#veri-vigil-overlay .vv-toggle {
+  margin-top: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+}
+
+#veri-vigil-overlay .vv-toggle:hover {
+  background: rgba(255, 255, 255, 0.24);
+}
+
+#veri-vigil-overlay .vv-panel {
+  margin-top: 12px;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 12px;
+  border-radius: 12px;
+}
+
+#veri-vigil-overlay .vv-explanation {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.45;
+}
