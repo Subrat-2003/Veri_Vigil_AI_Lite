@@ -4,7 +4,8 @@
 
 Veri-Vigil AI Lite is a Chrome Extension that analyzes YouTube videos and Shorts in **real time** and shows a trust score overlay directly on the page. The moment you open any YouTube video, it silently extracts the title and description, sends it to a locally running FastAPI backend, and uses **Groq AI (LLaMA 3.1)** to evaluate the content for misinformation, clickbait, and sensational language.
 
-The result? A **0–100 trust score**, a **Safe / Suspicious verdict**, and a plain English explanation — all before you press play.
+The result? 
+A **0–100 trust score**, a **Safe / Suspicious verdict**, and a plain English explanation, all before you press play.
 
 ---
 
