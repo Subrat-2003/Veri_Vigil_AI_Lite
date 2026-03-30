@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Veri-Vigil AI Lite",
+  "version": "1.0.0",
+  "description": "Analyzes YouTube video metadata and shows an authenticity score.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://www.youtube.com/*",
+    "http://127.0.0.1:8000/*",
+    "http://localhost:8000/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
